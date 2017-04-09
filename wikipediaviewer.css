@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+body {
+    background-color: #EEE;
+    min-width: 550px;
+}
+
+.header-container {
+    width: 530px;
+    background-color: #807F83;
+    margin: 0px auto;
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+    cursor: default;
+}
+
+.wikipedia-logo {
+    height: 80px;
+    width: 80px;
+}
+
+.header-text {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #1E1E1F;
+    margin-left: 20px;
+}
+
+.search-container {
+    display: flex;
+    background-color: ;
+    width: 500px;
+    margin: 40px auto 30px auto;
+}
+
+#search-box {
+    outline: none;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #CBC9CF;
+    font-size: 20px;
+    width: 400px;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+#search-box:focus {
+    box-shadow: 0 0 1pt 1pt #807F83;
+}
+
+.search-icon-container {
+    margin-left: 10px;
+    position: relative;
+    background-color: #1E1E1F;
+    color: white;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-icon-container:hover {
+    background-color: #807F83;
+    color: black;
+}
+
+.random-button {
+    padding: 10px;
+    background-color: #1E1E1F;
+    color: white;
+    margin-left: 10px;
+    font-family: 'Droid Sans', sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.random-button:hover {
+    background-color: #807F83;
+    color: black;
+}
+
+.ui-widget {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 18px;
+    color: #1E1E1F;
+}
+
+.wikipedia-link {
+    text-decoration: none;
+    color: inherit;
+    width: 530px;
+}
+
+#all-articles {
+    width: 530px;
+    margin: 0px auto;
+}
+
+.article-container {
+    border: 1px solid #CCC;
+    padding: 10px;
+    margin: 15px auto; 
+    width: 530px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #CCC;
+}
+
+.no-results-found {
+    padding: 10px;
+    margin: 15px auto; 
+    width: 530px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.article-container:hover {
+    border: 1px solid #1E1E1F;
+}
+
+.article-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.article-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
